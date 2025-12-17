@@ -27,3 +27,6 @@ MCP: AI-to-tool communication layer
 
 ##Conclusion
 This lab demonstrates how AI can safely and effectively assist engineers in real network operations.
+
+## Techical Step by step documentation
+https://github.com/ranilf2005/ai-llm-1/blob/main/solution.md
