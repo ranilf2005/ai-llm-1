@@ -1,14 +1,20 @@
+# Cisco pyATS CLI commands: practical cheat sheet
 
-# Cisco pyATS CLI Commands – Practical Cheat Sheet
+A hands-on reference for the Cisco **pyATS** and **Genie** CLI commands used most
+often in labs, demos and CI/CD pipelines.
 
-This document provides a **hands-on reference** for commonly used Cisco **pyATS and Genie CLI commands**, suitable for labs, demos, and CI/CD pipelines.
+Related: [lab guide](lab-guide.md) · [server code explained](server-code-explained.md) ·
+[MCP configuration explained](mcp-config-explained.md)
 
 ---
 
 ## 1. Install & Verify pyATS
 
+Install pyATS together with the Genie libraries, which is what this repository's
+`requirements.txt` does:
+
 ```bash
-pip install pyats genie
+pip install "pyats[library]"
 ```
 
 ```bash
@@ -193,5 +199,14 @@ Exit codes:
 
 ---
 
+## 11. Further Reading
+
+- [Cisco pyATS on DevNet](https://developer.cisco.com/pyats/)
+- [pyATS documentation](https://developer.cisco.com/docs/pyats/)
+- [pyATS on GitHub](https://github.com/CiscoTestAutomation/pyats)
+
+---
+
 **Author:** Ranil Fernando  
 **Use Case:** Cisco pyATS | Genie | CML | CI/CD Automation  
+**Licence:** GPL-3.0-or-later — see [LICENSE](../LICENSE)
