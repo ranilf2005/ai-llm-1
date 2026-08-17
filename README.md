@@ -1,5 +1,11 @@
 # Cisco pyATS MCP Server: run network operations from natural language in VS Code
 
+[![CI](https://github.com/ranilf2005/cisco-pyats-mcp-network-automation/actions/workflows/ci.yml/badge.svg)](https://github.com/ranilf2005/cisco-pyats-mcp-network-automation/actions/workflows/ci.yml)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![pyATS](https://img.shields.io/badge/Cisco-pyATS%20%7C%20Genie-1BA0D7.svg)](https://developer.cisco.com/pyats/)
+[![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-server-000000.svg)](https://modelcontextprotocol.io/)
+
 Network engineers spend a large share of every change window and every P1 doing the
 same three things: log in to a device, run a set of `show` commands, and read the
 output. Automating that normally means writing and maintaining Python — a barrier
